@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/kerain/EmoticonKeyboard.git", :tag => "#{s.version}" }
   s.requires_arc = true
-  #s.source_files = 'EmoticonKeyboard/EmoticonKeyboard/**/*.{swift}'
-  #s.resources    = "EmoticonKeyboard/EmoticonKeyboard/*.{png,xib,nib,bundle}"
+  s.source_files = 'EmoticonKeyboard/*.{swift}'
+  s.resources    = "EmoticonKeyboard/EmoticonKeyboard/*.{png,xib,nib,bundle}"
 end
